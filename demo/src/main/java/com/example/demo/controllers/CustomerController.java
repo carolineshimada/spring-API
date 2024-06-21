@@ -24,13 +24,13 @@ public class CustomerController {
     @Autowired
     private CustomerRepository customerRepository;
     
-    @Operation(summary = "Retrieve a list of all customers")
+    @Operation(summary = "Return a list of all customers")
     @GetMapping
     public List<Customer> getAllCustomers() {
         return customerRepository.findAll();
     }
 
-    @Operation(summary = "Retrieve a customer by ID")
+    @Operation(summary = "Return a customer by ID")
     @GetMapping("/{id}")
     public ResponseEntity<Customer> getCustomerById(@PathVariable Long id) {
         return customerRepository.findById(id)
