@@ -29,8 +29,6 @@ public class OrderItem {
     @Column(name = "UnitPrice", nullable = false)
     private BigDecimal unitPrice;
 
-    // Getters and Setters
-
     public Long getId() {
         return id;
     }
