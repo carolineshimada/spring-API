@@ -48,3 +48,7 @@ The `GlobalExceptionHandler` is a critical component of this API, ensuring that 
 ## Conclusion
 
 This API project is in progress, and is being designed to provide a robust and scalable solution for restaurant delivery services. By adhering to RESTful principles and utilizing Spring Boot and SQL Server, the project ensures efficient and reliable performance. The structured package organization and the `GlobalExceptionHandler` contribute to a maintainable and user-friendly API.
+
+## Demo
+![demo](https://github.com/carolineshimada/spring-API/assets/71412867/d3db9361-66c7-4804-9402-57f2d9b23d90)
+
