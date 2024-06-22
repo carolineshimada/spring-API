@@ -1,4 +1,4 @@
-!SESSION 2024-05-27 14:30:02.974 -----------------------------------------------
+!SESSION 2024-06-21 11:50:17.565 -----------------------------------------------
 eclipse.buildId=4.31.0.20240307-1200
 java.version=17.0.10
 java.vendor=Oracle Corporation
@@ -6,42 +6,51 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
-!ENTRY ch.qos.logback.classic 1 0 2024-05-27 14:30:06.162
+!ENTRY ch.qos.logback.classic 1 0 2024-06-21 11:50:22.256
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2024-05-27 14:34:08.598
-!MESSAGE Logback config file: C:\Users\carol\Documents\javaspring\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+!ENTRY ch.qos.logback.classic 1 0 2024-06-21 11:50:52.667
+!MESSAGE Logback config file: C:\Users\carol\Documents\spring-API\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
 
-!ENTRY org.eclipse.ui 2 0 2024-05-27 14:34:09.314
+!ENTRY org.eclipse.ui 2 0 2024-06-21 11:50:53.742
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-27 14:34:09.314
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-21 11:50:53.743
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.eclipse.ui 2 0 2024-05-27 14:34:09.674
+!ENTRY org.eclipse.ui 2 0 2024-06-21 11:50:54.344
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-27 14:34:09.674
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-21 11:50:54.344
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.eclipse.egit.ui 2 0 2024-05-27 14:34:14.641
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-21 11:51:00.670
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\carol'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-27 14:38:49.252
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-21 11:51:09.198
 !MESSAGE Classpath changed for project: demo
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-27 14:38:49.253
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-21 11:51:10.920
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-21 11:51:19.496
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-21 11:51:19.510
 !MESSAGE Boot project ADDED: demo
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-27 14:38:49.254
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-21 11:51:19.512
 !MESSAGE Starting Boot LS...
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-27 14:38:49.311
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-21 11:51:19.609
 !MESSAGE Started Boot LS process
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-27 14:38:49.340
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-21 11:51:19.610
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-21 11:51:19.660
 !MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
 START:
 C:\Program Files\Java\jdk-17\bin\javaw.exe
@@ -52,147 +61,13 @@ C:\Users\carol\eclipse\java-2024-03\eclipse\..\..\..\.p2\pool\plugins\org.spring
 -XX:TieredStopAtLevel=1
 -Xlog:jni+resolve=off
 -Dspring.config.location=file:C:\Users\carol\eclipse\java-2024-03\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
--XX:ErrorFile=C:/Users/carol/Documents/javaspring/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1716813529338
+-XX:ErrorFile=C:/Users/carol/Documents/spring-API/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1718963479658
 org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
 --languageserver.hover-timeout=225
 END
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-27 14:38:49.341
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-21 11:51:19.661
 !MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-27 14:38:49.361
-!MESSAGE Started org.springframework.tooling.boot.ls LS process 30784
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-27 14:38:50.693
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-27 14:38:57.627
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.eclipse.lsp4e 2 0 2024-05-27 14:48:58.392
-!MESSAGE Timeout waiting for data to generate LS hover
-!STACK 0
-java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-27 14:53:50.661
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-27 14:53:50.709
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-27 14:55:43.342
-!MESSAGE Classpath changed for project: demo
-
-!ENTRY org.eclipse.lsp4e 2 0 2024-05-27 17:19:18.625
-!MESSAGE Javadoc unavailable. Failed to obtain it.
-!STACK 0
-java.lang.InterruptedException
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.eclipse.lsp4e 4 0 2024-05-27 21:47:30.558
-!MESSAGE 998
-!STACK 0
-org.eclipse.jface.text.BadLocationException: 998
-	at org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)
-	at org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1112)
-	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:246)
-	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:863)
-	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)
-	at org.eclipse.lsp4e.LSPEclipseUtils.toPosition(LSPEclipseUtils.java:193)
-	at org.eclipse.lsp4e.LSPEclipseUtils.toTextDocumentPositionParamsCommon(LSPEclipseUtils.java:291)
-	at org.eclipse.lsp4e.LSPEclipseUtils.toHoverParams(LSPEclipseUtils.java:302)
-	at org.eclipse.lsp4e.operations.hover.LSPTextHover.initiateHoverRequest(LSPTextHover.java:202)
-	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfoFuture(LSPTextHover.java:94)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:49)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2024-05-27 21:47:30.567
-!MESSAGE Internal Error
-!STACK 0
-org.eclipse.jface.text.BadLocationException
-	at org.eclipse.jface.text.AbstractDocument.getChar(AbstractDocument.java:774)
-	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getChar(SynchronizableDocument.java:141)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaSourceHover.getBracketHoverInfo(JavaSourceHover.java:491)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaSourceHover.getHoverInfo(JavaSourceHover.java:436)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaSourceHover.getHoverInfo2(JavaSourceHover.java:398)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-!SESSION 2024-05-28 09:29:23.506 -----------------------------------------------
-eclipse.buildId=4.31.0.20240307-1200
-java.version=17.0.10
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
-Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
-
-!ENTRY ch.qos.logback.classic 1 0 2024-05-28 09:29:27.085
-!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
-
-!ENTRY ch.qos.logback.classic 1 0 2024-05-28 09:29:31.023
-!MESSAGE Logback config file: C:\Users\carol\Documents\javaspring\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
-
-!ENTRY org.eclipse.ui 2 0 2024-05-28 09:29:31.611
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-28 09:29:31.611
-!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
-
-!ENTRY org.eclipse.ui 2 0 2024-05-28 09:29:32.092
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-28 09:29:32.092
-!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-28 09:29:36.744
-!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
-START:
-C:\Program Files\Java\jdk-17\bin\javaw.exe
--cp
-C:\Users\carol\eclipse\java-2024-03\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\carol\eclipse\java-2024-03\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\lib\*
--Dsts.lsp.client=eclipse
--Xmx1024m
--XX:TieredStopAtLevel=1
--Xlog:jni+resolve=off
--Dspring.config.location=file:C:\Users\carol\eclipse\java-2024-03\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.54.0.202405011602\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
--XX:ErrorFile=C:/Users/carol/Documents/javaspring/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1716881376742
-org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
---languageserver.hover-timeout=225
-END
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-28 09:29:36.745
-!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-28 09:29:36.765
-!MESSAGE Started org.springframework.tooling.boot.ls LS process 25412
-
-!ENTRY org.eclipse.egit.ui 2 0 2024-05-28 09:29:40.561
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\carol'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-28 09:29:40.719
-!MESSAGE Boot project ADDED: demo
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-28 09:29:40.720
-!MESSAGE Starting Boot LS...
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-28 09:29:40.725
-!MESSAGE Started Boot LS process
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-21 11:51:19.672
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 39176
