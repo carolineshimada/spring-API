@@ -1,0 +1,47 @@
+package com.example.demo.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import com.example.demo.entities.Customer;
+import com.example.demo.entities.Order;
+import com.example.demo.exceptions.ResourceNotFoundException;
+import com.example.demo.repositories.OrderRepository;
+
+import io.swagger.v3.oas.annotations.Operation;
+import jakarta.validation.Valid;
+
+@RestController
+@RequestMapping("order")
+public class OrderController {
+    @Autowired
+    private OrderRepository orderRepository;
+
+    @Operation(summary = "Return a list of all orders")
+    @GetMapping
+    public List<Order> getAllOrders() {
+        return orderRepository.findAll();
+    }
+    
+    @Operation(summary = "Return a order by ID")
+    @GetMapping("/{id}")
+    public ResponseEntity<Order> getOrderById(@PathVariable Long id) {
+        return orderRepository.findById(id)
+                .map(ResponseEntity::ok)
+                .orElseThrow(() -> new ResourceNotFoundException("Order not found with id " + id));
+    }
+    
+    @Operation(summary = "Create a new customer")
+    @PostMapping
+    public ResponseEntity<Order> createOrder(@Valid @RequestBody Order order) {
+        Order savedOrder = orderRepository.save(order);
+        return ResponseEntity.status(HttpStatus.CREATED).body(savedOrder);
+    }
+    
+
+
+}
